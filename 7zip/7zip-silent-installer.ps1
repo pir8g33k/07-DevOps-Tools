@@ -5,7 +5,6 @@
 $workdir = "c:\installer\"
 
 # Check if work directory exists if not create it
-
 If (Test-Path -Path $workdir -PathType Container)
 { Write-Host "$workdir already exists" -ForegroundColor Red}
 ELSE
