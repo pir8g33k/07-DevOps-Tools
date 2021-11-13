@@ -1,5 +1,5 @@
 #!/bin/bash
-# Install golang from standard Ubuntu repo
+# Install golang from standard Ubuntu repos.
 sudo apt update && sudo apt -y upgrade
 sudo apt install -y software-properties-common
 
